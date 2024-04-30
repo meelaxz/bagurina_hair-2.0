@@ -1,0 +1,39 @@
+.punkts{
+    background-image: url('../images/ourPlusBGI.png');
+    background-repeat: no-repeat;
+    width: 78%;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.punkts img{
+    border: 20px;
+}
+
+.punktsAll{
+    padding-top: 10px;
+    margin-bottom: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+    align-items: center;
+}
+
+.punkt{
+    text-align: center;
+}
+
+.punkt img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.punkt p{
+    margin-top: 7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
